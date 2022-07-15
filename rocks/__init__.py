@@ -18,9 +18,26 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>
 
 from rocks.song import Song
 from rocks.groups import (
-    get_group, get_queue, set_group, set_title, all_groups, clear_queue,
-    set_default, shuffle_queue)
+    get_group,
+    get_queue,
+    set_group,
+    set_title,
+    all_groups,
+    clear_queue,
+    set_default,
+    shuffle_queue,
+)
 from rocks.funcs import (
-    app, ydl, safone, search, pytgcalls, skip_stream, check_yt_url,
-    extract_args, start_stream, generate_cover, delete_messages,
-    get_youtube_playlist)
+    app,
+    ydl,
+    safone,
+    search,
+    pytgcalls,
+    skip_stream,
+    check_yt_url,
+    extract_args,
+    start_stream,
+    generate_cover,
+    delete_messages,
+    get_youtube_playlist,
+)
